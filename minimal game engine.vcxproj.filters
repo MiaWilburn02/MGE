@@ -2,6 +2,10 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <ClInclude Include="important\include_all.h" />
+    <ClInclude Include="math\include_math.h" />
+    <ClInclude Include="math\types\vec2.h" />
+    <ClInclude Include="math\types\vec3.h" />
+    <ClInclude Include="math\types\angle.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
