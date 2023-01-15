@@ -30,3 +30,12 @@
 *.exe
 *.out
 *.app
+*.lock
+*.vsidx
+*.db
+*.db
+*.db-shm
+*.db-wal
+*.opendb
+.vs/minimal game engine/v17/.suo
+*.ipch
