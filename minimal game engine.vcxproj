@@ -144,17 +144,25 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="command_line\command_line.h" />
+    <ClInclude Include="hashing\hashing.h" />
     <ClInclude Include="important\include_all.h" />
     <ClInclude Include="logging\logging.h" />
     <ClInclude Include="math\include_math.h" />
     <ClInclude Include="math\types\angle.h" />
     <ClInclude Include="math\types\vec2.h" />
     <ClInclude Include="math\types\vec3.h" />
+    <ClInclude Include="windows\console_window\console_window.h" />
+    <ClInclude Include="windows\include_window.h" />
+    <ClInclude Include="windows\standard_window\standard_window.h" />
+    <ClInclude Include="windows\windows.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="command_line\command_line.cpp" />
+    <ClCompile Include="hashing\hashing.cpp" />
     <ClCompile Include="logging\logging.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="windows\console_window\console_window.cpp" />
+    <ClCompile Include="windows\windows.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -8,9 +8,13 @@ int main( int argc, char** argv ) {
 	// NOTE - there's definitely a better way we can achieve this
 	command_line::parse( argc, argv );
 
-	for ( ;; ) {
+	// setup all our windows
+	windows::initialize( );
 
-	}
+	for ( ;; ) { }
+
+	// free any allocated memory etc
+	windows::unload( );
 
 	return 0;
 }
