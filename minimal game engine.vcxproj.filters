@@ -6,8 +6,10 @@
     <ClInclude Include="math\types\vec2.h" />
     <ClInclude Include="math\types\vec3.h" />
     <ClInclude Include="math\types\angle.h" />
+    <ClInclude Include="logging\logging.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="logging\logging.cpp" />
   </ItemGroup>
 </Project>

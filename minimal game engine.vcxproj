@@ -144,12 +144,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="important\include_all.h" />
+    <ClInclude Include="logging\logging.h" />
     <ClInclude Include="math\include_math.h" />
     <ClInclude Include="math\types\angle.h" />
     <ClInclude Include="math\types\vec2.h" />
     <ClInclude Include="math\types\vec3.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="logging\logging.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
