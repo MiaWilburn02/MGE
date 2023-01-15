@@ -7,3 +7,4 @@
 #include "../command_line/command_line.h"
 #include "../logging/logging.h"
 #include "../math/include_math.h"
+#include "../hashing/hashing.h"

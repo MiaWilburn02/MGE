@@ -9,10 +9,10 @@ namespace command_line {
 	}
 
 	bool find( std::string argument ) {
-		// NOTE - we should really be doing some sort of
-		// fast hashing instead of this
+		auto hashed_argument = hashing::fnv1_a( argument );
+
 		for ( auto& it : arguments ) {
-			if ( it == argument )
+			if ( hashing::fnv1_a( it ) == hashed_argument )
 				return true;
 		}
 
