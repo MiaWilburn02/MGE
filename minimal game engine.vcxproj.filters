@@ -7,9 +7,11 @@
     <ClInclude Include="math\types\vec3.h" />
     <ClInclude Include="math\types\angle.h" />
     <ClInclude Include="logging\logging.h" />
+    <ClInclude Include="command_line\command_line.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
     <ClCompile Include="logging\logging.cpp" />
+    <ClCompile Include="command_line\command_line.cpp" />
   </ItemGroup>
 </Project>
