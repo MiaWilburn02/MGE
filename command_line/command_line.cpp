@@ -14,8 +14,6 @@ namespace command_line {
 			cur_pos = delim_pos + 1;
 			delim_pos = args.find( "-", cur_pos );
 		}
-
-		printf_s( command_line );
 	}
 
 	bool find( std::string argument ) {
