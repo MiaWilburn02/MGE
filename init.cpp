@@ -1,8 +1,6 @@
 #include "important/include_all.h"
 
 int APIENTRY WinMain( HINSTANCE instance, HINSTANCE /*prev_instance*/, PSTR command_line, int show_cmd ) {
-	logging::info( "MGE init" );
-
 	// go ahead and parse all of our command line
 	// arguments before we continue
 	// NOTE - there's definitely a better way we can achieve this
@@ -14,7 +12,7 @@ int APIENTRY WinMain( HINSTANCE instance, HINSTANCE /*prev_instance*/, PSTR comm
 	for ( ;; ) { }
 
 	// free any allocated memory etc
-	windows::unload( );
+	//windows::unload( );
 
-	return 0;
+	//return 0;
 }
