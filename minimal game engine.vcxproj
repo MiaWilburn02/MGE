@@ -118,7 +118,7 @@
       <TreatWarningAsError>true</TreatWarningAsError>
     </ClCompile>
     <Link>
-      <SubSystem>Console</SubSystem>
+      <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
@@ -136,7 +136,7 @@
       <TreatWarningAsError>true</TreatWarningAsError>
     </ClCompile>
     <Link>
-      <SubSystem>Console</SubSystem>
+      <SubSystem>Windows</SubSystem>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -160,8 +160,9 @@
     <ClCompile Include="command_line\command_line.cpp" />
     <ClCompile Include="hashing\hashing.cpp" />
     <ClCompile Include="logging\logging.cpp" />
-    <ClCompile Include="main.cpp" />
+    <ClCompile Include="init.cpp" />
     <ClCompile Include="windows\console_window\console_window.cpp" />
+    <ClCompile Include="windows\standard_window\standard_window.cpp" />
     <ClCompile Include="windows\windows.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

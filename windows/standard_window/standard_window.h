@@ -3,5 +3,6 @@
 class c_standard_window {
 public:
 	std::string m_name = "";
-	virtual void wnd_proc( HWND hwnd, UINT msg, WPARAM wparam, LPARAM lparam ) = 0;
+
+	void initialize_window( HINSTANCE instance, int show_cmd, WNDPROC wnd_proc );
 };

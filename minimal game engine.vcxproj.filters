@@ -15,11 +15,12 @@
     <ClInclude Include="windows\console_window\console_window.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp" />
+    <ClCompile Include="init.cpp" />
     <ClCompile Include="logging\logging.cpp" />
     <ClCompile Include="command_line\command_line.cpp" />
     <ClCompile Include="hashing\hashing.cpp" />
     <ClCompile Include="windows\windows.cpp" />
     <ClCompile Include="windows\console_window\console_window.cpp" />
+    <ClCompile Include="windows\standard_window\standard_window.cpp" />
   </ItemGroup>
 </Project>
